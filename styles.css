@@ -1,0 +1,162 @@
+body{
+    font-family: "Cascadia Mono", sans-serif;
+    background: linear-gradient(-45deg, #5422dd, #9914c2, #9616a1, #5f459c);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center; 
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(10, 33, 238);
+}
+
+.contenedor {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contenido {
+    width: 75%;
+    padding: 15px;
+}
+
+.caja {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background-color: transparent;
+}
+
+.form-box {
+    background: white;
+    padding: 25px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+.form-box button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #5815a5;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-box button:hover {
+    background-color: #4b0977;
+}
+
+.caja {
+    min-height: 500px;
+    border-radius: 15px;
+}
+
+.oculto {
+    display: none;
+}
+
+.card {
+    padding: 30px !important;
+}
+
+table {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.carrusel{
+    width:100%;
+    max-width:600px;
+    margin:auto;
+    overflow:hidden;
+}
+
+.carrusel-imagenes{
+    position:relative;
+}
+
+.slide{
+    width:100%;
+    display:none;
+    border-radius:10px;
+}
+
+.activo{
+    display:block;
+}
+
+@keyframes gradientBG {
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
+
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
